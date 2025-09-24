@@ -19,6 +19,10 @@ binding = "CONFIG_KV"
 id = "0774c6671bcb4a6caafa87f181d6f663"
 
 [[kv_namespaces]]
+binding = "CACHE_KV"
+id = "f8622a572d774d51b87f299314edd681"
+
+[[kv_namespaces]]
 binding = "DEDUP_KV"
 id = "10438725ab324e9ea0de621e9e310bc5"
 
@@ -40,8 +44,11 @@ binding = "CONTEXT_BUCKET"
 bucket_name = "n8n-context"
 
 [durable_objects]
-bindings = [{name = "MCP_OBJECT", class_name = "MyMCP"}]
+bindings = [
+  {name = "N8NMCPDURABLEOBJECT_OBJECT", class_name = "N8nMCPDurableObject"},
+  {name = "TOOLTIERMANAGER_OBJECT", class_name = "ToolTierManager"}
+]
 
 [[migrations]]
 tag = "v1"
-new_classes = ["MyMCP"]
+new_classes = ["N8nMCPDurableObject", "ToolTierManager"]
