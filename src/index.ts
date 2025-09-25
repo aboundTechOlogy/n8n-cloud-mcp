@@ -30,6 +30,41 @@ import executioncancel from './tools/execution_cancel';
 import executionlist from './tools/execution_list';
 import nodeget from './tools/node_get';
 import nodelistcategories from './tools/node_list_categories';
+import templatesearch from './tools/template_search';
+import templateget from './tools/template_get';
+import templatelist from './tools/template_list';
+import templateapply from './tools/template_apply';
+import templatecreate from './tools/template_create';
+import templateupdate from './tools/template_update';
+import templatedelete from './tools/template_delete';
+import aisuggestworkflow from './tools/ai_suggest_workflow';
+import aioptimizeworkflow from './tools/ai_optimize_workflow';
+import aigeneratedescription from './tools/ai_generate_description';
+import aidetecterrors from './tools/ai_detect_errors';
+import aisuggestnodes from './tools/ai_suggest_nodes';
+import aiexplainworkflow from './tools/ai_explain_workflow';
+import analysisperformance from './tools/analysis_performance';
+import analysisusage from './tools/analysis_usage';
+import analysiserrors from './tools/analysis_errors';
+import analysisbottlenecks from './tools/analysis_bottlenecks';
+import analysisdependencies from './tools/analysis_dependencies';
+import analysiscost from './tools/analysis_cost';
+import analysisrecommendations from './tools/analysis_recommendations';
+import executiondelete from './tools/execution_delete';
+import executiongetlogs from './tools/execution_get_logs';
+import executiongetdata from './tools/execution_get_data';
+import executionstop from './tools/execution_stop';
+import nodelist from './tools/node_list';
+import nodegetschema from './tools/node_get_schema';
+import nodegetdocumentation from './tools/node_get_documentation';
+import nodevalidate from './tools/node_validate';
+import nodegetexamples from './tools/node_get_examples';
+import credentiallist from './tools/credential_list';
+import credentialgettypes from './tools/credential_get_types';
+import credentialvalidate from './tools/credential_validate';
+import credentialtest from './tools/credential_test';
+import credentialgetschema from './tools/credential_get_schema';
+import credentialcheckusage from './tools/credential_check_usage';
 
 // Tool registry
 const tools = {
@@ -53,6 +88,41 @@ const tools = {
   'execution.list': executionlist,
   'node.get': nodeget,
   'node.list_categories': nodelistcategories,
+  'template.search': templatesearch,
+  'template.get': templateget,
+  'template.list': templatelist,
+  'template.apply': templateapply,
+  'template.create': templatecreate,
+  'template.update': templateupdate,
+  'template.delete': templatedelete,
+  'ai.suggest_workflow': aisuggestworkflow,
+  'ai.optimize_workflow': aioptimizeworkflow,
+  'ai.generate_description': aigeneratedescription,
+  'ai.detect_errors': aidetecterrors,
+  'ai.suggest_nodes': aisuggestnodes,
+  'ai.explain_workflow': aiexplainworkflow,
+  'analysis.performance': analysisperformance,
+  'analysis.usage': analysisusage,
+  'analysis.errors': analysiserrors,
+  'analysis.bottlenecks': analysisbottlenecks,
+  'analysis.dependencies': analysisdependencies,
+  'analysis.cost': analysiscost,
+  'analysis.recommendations': analysisrecommendations,
+  'execution.delete': executiondelete,
+  'execution.get_logs': executiongetlogs,
+  'execution.get_data': executiongetdata,
+  'execution.stop': executionstop,
+  'node.list': nodelist,
+  'node.get_schema': nodegetschema,
+  'node.get_documentation': nodegetdocumentation,
+  'node.validate': nodevalidate,
+  'node.get_examples': nodegetexamples,
+  'credential.list': credentiallist,
+  'credential.get_types': credentialgettypes,
+  'credential.validate': credentialvalidate,
+  'credential.test': credentialtest,
+  'credential.get_schema': credentialgetschema,
+  'credential.check_usage': credentialcheckusage,
 };
 
 export default {
@@ -66,8 +136,8 @@ export default {
     if (url.pathname === '/') {
       return new Response(JSON.stringify({
         name: 'n8n-cloud-mcp',
-        version: '0.12.0',
-        toolsImplemented: 20,
+        version: '0.14.0',
+        toolsImplemented: 55,
         totalTools: 93,
         progress: '9.7%',
         status: 'operational',
