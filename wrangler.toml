@@ -51,4 +51,4 @@ bindings = [
 
 [[migrations]]
 tag = "v1"
-new_classes = ["N8nMCPDurableObject", "ToolTierManager"]
+new_sqlite_classes = ["N8nMCPDurableObject", "ToolTierManager"]

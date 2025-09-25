@@ -30,7 +30,7 @@ export default {
 
     try {
       // Try to get nodes from R2 or context
-      const contextData = await context.env.CONTEXT.get('workflow-context.json');
+      const contextData = await context.env.CONTEXT_BUCKET.get('workflow-context.json');
       if (contextData) {
         const data = JSON.parse(await contextData.text());
         const query = args.query.toLowerCase();

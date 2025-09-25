@@ -29,7 +29,7 @@ export default {
 
     try {
       // Read metadata from R2
-      const metadata = await context.env.TEMPLATES.get('metadata.json');
+      const metadata = await context.env.TEMPLATES_BUCKET.get('metadata.json');
       if (metadata) {
         const data = JSON.parse(await metadata.text());
         const limit = args.limit || 10;

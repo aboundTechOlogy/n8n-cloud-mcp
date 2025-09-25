@@ -32,7 +32,7 @@ export default {
       // Search through batch files
       const results = [];
       for (let i = 0; i < 21; i++) {
-        const batch = await context.env.TEMPLATES.get(`workflow-batch-${i}.json`);
+        const batch = await context.env.TEMPLATES_BUCKET.get(`workflow-batch-${i}.json`);
         if (batch) {
           const workflows = JSON.parse(await batch.text());
           const matches = workflows.filter((wf: any) => {
