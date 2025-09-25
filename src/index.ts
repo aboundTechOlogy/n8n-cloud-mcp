@@ -7,7 +7,7 @@ import { CacheManager } from './lib/cache';
 import { validateSqlQuery } from './lib/sql-validator';
 
 // Durable Objects - CRITICAL: Must be exported for Cloudflare
-export { N8nMCPDurableObject, ToolTierManager } from './durable-objects';
+// export { N8nMCPDurableObject, ToolTierManager } // Free plan from './durable-objects';
 
 // Tool implementations
 import executeWorkflow from './tools/execute_workflow';
@@ -18,6 +18,7 @@ import activateWorkflow from './tools/workflow_activate';
 import deactivateWorkflow from './tools/workflow_deactivate';
 import updateWorkflow from './tools/workflow_update';
 import deleteWorkflow from './tools/workflow_delete';
+import searchNodes from './tools/search_nodes';
 
 // Tool registry
 const tools = {
@@ -29,6 +30,7 @@ const tools = {
   'workflow.deactivate': deactivateWorkflow,
   'workflow.update': updateWorkflow,
   'workflow.delete': deleteWorkflow,
+  'search_nodes': searchNodes,
 };
 
 export default {
@@ -42,10 +44,10 @@ export default {
     if (url.pathname === '/') {
       return new Response(JSON.stringify({
         name: 'n8n-cloud-mcp',
-        version: '0.8.0',
-        toolsImplemented: 8,
+        version: '0.9.0',
+        toolsImplemented: 9,
         totalTools: 93,
-        progress: '8.6%',
+        progress: '9.7%',
         status: 'operational',
         architecture: '3-tier with security',
         bundleSize: '~200KB (with security)',
@@ -149,7 +151,7 @@ export default {
         total: 93,
         implemented: 8,
         secured: 8,
-        progress: '8.6%',
+        progress: '9.7%',
         securityProgress: '100%'
       }), {
         headers: { 'Content-Type': 'application/json' }

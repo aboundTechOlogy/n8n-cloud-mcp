@@ -1,10 +1,10 @@
 {
   "name": "n8n-cloud-mcp",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "n8n MCP Server for Cloudflare Workers with 93 tools",
   "type": "module",
   "scripts": {
-    "build": "esbuild src/index.ts --bundle --platform=neutral --format=esm --minify --outfile=dist/bundle.js",
+    "build": "esbuild src/index.ts --bundle --platform=neutral --format=esm --minify --external:cloudflare:workers --outfile=dist/bundle.js",
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
     "type-check": "tsc --noEmit"
