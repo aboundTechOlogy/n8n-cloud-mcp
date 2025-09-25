@@ -1,0 +1,100 @@
+{
+  "total": 2060,
+  "updated": "2025-09-25T04:36:13.894Z",
+  "categories": [
+    {
+      "name": "context",
+      "count": 3
+    },
+    {
+      "name": "uncategorized",
+      "count": 1
+    },
+    {
+      "name": "workflows",
+      "count": 2056
+    }
+  ],
+  "topNodeTypes": [
+    [
+      "n8n-nodes-base.stickyNote",
+      1323
+    ],
+    [
+      "n8n-nodes-base.set",
+      1065
+    ],
+    [
+      "n8n-nodes-base.httpRequest",
+      892
+    ],
+    [
+      "n8n-nodes-base.manualTrigger",
+      771
+    ],
+    [
+      "n8n-nodes-base.if",
+      660
+    ],
+    [
+      "n8n-nodes-base.code",
+      516
+    ],
+    [
+      "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      435
+    ],
+    [
+      "@n8n/n8n-nodes-langchain.agent",
+      381
+    ],
+    [
+      "n8n-nodes-base.merge",
+      339
+    ],
+    [
+      "n8n-nodes-base.scheduleTrigger",
+      311
+    ],
+    [
+      "n8n-nodes-base.webhook",
+      310
+    ],
+    [
+      "n8n-nodes-base.splitOut",
+      295
+    ],
+    [
+      "n8n-nodes-base.googleSheets",
+      281
+    ],
+    [
+      "n8n-nodes-base.noOp",
+      249
+    ],
+    [
+      "n8n-nodes-base.switch",
+      233
+    ],
+    [
+      "n8n-nodes-base.splitInBatches",
+      224
+    ],
+    [
+      "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+      198
+    ],
+    [
+      "n8n-nodes-base.filter",
+      195
+    ],
+    [
+      "@n8n/n8n-nodes-langchain.chainLlm",
+      194
+    ],
+    [
+      "@n8n/n8n-nodes-langchain.openAi",
+      191
+    ]
+  ]
+}

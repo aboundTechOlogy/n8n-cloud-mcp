@@ -1,0 +1,3008 @@
+{
+  "nodes": [
+    {
+      "type": "n8n-nodes-base.activeCampaignTrigger",
+      "category": "n8n-nodes-base",
+      "name": "activeCampaignTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.acuitySchedulingTrigger",
+      "category": "n8n-nodes-base",
+      "name": "acuitySchedulingTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.affinityTrigger",
+      "category": "n8n-nodes-base",
+      "name": "affinityTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.stickyNote",
+      "category": "n8n-nodes-base",
+      "name": "stickyNote",
+      "usage_count": 1323
+    },
+    {
+      "type": "n8n-nodes-base.gmailTrigger",
+      "category": "n8n-nodes-base",
+      "name": "gmailTrigger",
+      "usage_count": 53
+    },
+    {
+      "type": "n8n-nodes-base.gmail",
+      "category": "n8n-nodes-base",
+      "name": "gmail",
+      "usage_count": 167
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "chainLlm",
+      "usage_count": 194
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "lmChatOpenAi",
+      "usage_count": 435
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "outputParserStructured",
+      "usage_count": 154
+    },
+    {
+      "type": "n8n-nodes-base.set",
+      "category": "n8n-nodes-base",
+      "name": "set",
+      "usage_count": 1065
+    },
+    {
+      "type": "n8n-nodes-base.splitOut",
+      "category": "n8n-nodes-base",
+      "name": "splitOut",
+      "usage_count": 295
+    },
+    {
+      "type": "n8n-nodes-base.merge",
+      "category": "n8n-nodes-base",
+      "name": "merge",
+      "usage_count": 339
+    },
+    {
+      "type": "n8n-nodes-base.aggregate",
+      "category": "n8n-nodes-base",
+      "name": "aggregate",
+      "usage_count": 173
+    },
+    {
+      "type": "n8n-nodes-base.telegramTrigger",
+      "category": "n8n-nodes-base",
+      "name": "telegramTrigger",
+      "usage_count": 94
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "openAi",
+      "usage_count": 191
+    },
+    {
+      "type": "n8n-nodes-base.telegram",
+      "category": "n8n-nodes-base",
+      "name": "telegram",
+      "usage_count": 176
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "agent",
+      "usage_count": 381
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "memoryBufferWindow",
+      "usage_count": 198
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "chatTrigger",
+      "usage_count": 181
+    },
+    {
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "category": "n8n-nodes-base",
+      "name": "executeWorkflowTrigger",
+      "usage_count": 180
+    },
+    {
+      "type": "n8n-nodes-base.switch",
+      "category": "n8n-nodes-base",
+      "name": "switch",
+      "usage_count": 233
+    },
+    {
+      "type": "n8n-nodes-base.if",
+      "category": "n8n-nodes-base",
+      "name": "if",
+      "usage_count": 660
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.toolWorkflow",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "toolWorkflow",
+      "usage_count": 100
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.toolCode",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "toolCode",
+      "usage_count": 13
+    },
+    {
+      "type": "n8n-nodes-base.airtable",
+      "category": "n8n-nodes-base",
+      "name": "airtable",
+      "usage_count": 113
+    },
+    {
+      "type": "n8n-nodes-base.httpRequest",
+      "category": "n8n-nodes-base",
+      "name": "httpRequest",
+      "usage_count": 892
+    },
+    {
+      "type": "n8n-nodes-klicktipp.klicktipp",
+      "category": "n8n-nodes-klicktipp",
+      "name": "klicktipp",
+      "usage_count": 6
+    },
+    {
+      "type": "n8n-nodes-base.jotFormTrigger",
+      "category": "n8n-nodes-base",
+      "name": "jotFormTrigger",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.webhook",
+      "category": "n8n-nodes-base",
+      "name": "webhook",
+      "usage_count": 310
+    },
+    {
+      "type": "n8n-nodes-base.typeformTrigger",
+      "category": "n8n-nodes-base",
+      "name": "typeformTrigger",
+      "usage_count": 24
+    },
+    {
+      "type": "n8n-nodes-base.executeWorkflow",
+      "category": "n8n-nodes-base",
+      "name": "executeWorkflow",
+      "usage_count": 67
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.lmChatAzureOpenAi",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "lmChatAzureOpenAi",
+      "usage_count": 4
+    },
+    {
+      "type": "n8n-nodes-base.googleSheets",
+      "category": "n8n-nodes-base",
+      "name": "googleSheets",
+      "usage_count": 281
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.openAiAssistant",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "openAiAssistant",
+      "usage_count": 2
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.toolCalculator",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "toolCalculator",
+      "usage_count": 27
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.memoryManager",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "memoryManager",
+      "usage_count": 14
+    },
+    {
+      "type": "n8n-nodes-base.limit",
+      "category": "n8n-nodes-base",
+      "name": "limit",
+      "usage_count": 58
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "lmChatGoogleGemini",
+      "usage_count": 113
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.toolWikipedia",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "toolWikipedia",
+      "usage_count": 30
+    },
+    {
+      "type": "n8n-nodes-base.airtableTool",
+      "category": "n8n-nodes-base",
+      "name": "airtableTool",
+      "usage_count": 15
+    },
+    {
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "category": "n8n-nodes-base",
+      "name": "scheduleTrigger",
+      "usage_count": 311
+    },
+    {
+      "type": "n8n-nodes-base.code",
+      "category": "n8n-nodes-base",
+      "name": "code",
+      "usage_count": 516
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.outputParserAutofixing",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "outputParserAutofixing",
+      "usage_count": 26
+    },
+    {
+      "type": "n8n-nodes-base.mindee",
+      "category": "n8n-nodes-base",
+      "name": "mindee",
+      "usage_count": 5
+    },
+    {
+      "type": "n8n-nodes-base.cron",
+      "category": "n8n-nodes-base",
+      "name": "cron",
+      "usage_count": 108
+    },
+    {
+      "type": "n8n-nodes-base.hackerNews",
+      "category": "n8n-nodes-base",
+      "name": "hackerNews",
+      "usage_count": 9
+    },
+    {
+      "type": "n8n-nodes-base.function",
+      "category": "n8n-nodes-base",
+      "name": "function",
+      "usage_count": 123
+    },
+    {
+      "type": "n8n-nodes-base.lingvaNex",
+      "category": "n8n-nodes-base",
+      "name": "lingvaNex",
+      "usage_count": 3
+    },
+    {
+      "type": "n8n-nodes-base.vonage",
+      "category": "n8n-nodes-base",
+      "name": "vonage",
+      "usage_count": 4
+    },
+    {
+      "type": "n8n-nodes-base.lemlist",
+      "category": "n8n-nodes-base",
+      "name": "lemlist",
+      "usage_count": 7
+    },
+    {
+      "type": "n8n-nodes-base.wait",
+      "category": "n8n-nodes-base",
+      "name": "wait",
+      "usage_count": 149
+    },
+    {
+      "type": "n8n-nodes-base.airtableTrigger",
+      "category": "n8n-nodes-base",
+      "name": "airtableTrigger",
+      "usage_count": 11
+    },
+    {
+      "type": "n8n-nodes-base.airtopTool",
+      "category": "n8n-nodes-base",
+      "name": "airtopTool",
+      "usage_count": 1
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.lmChatAnthropic",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "lmChatAnthropic",
+      "usage_count": 21
+    },
+    {
+      "type": "n8n-nodes-base.formTrigger",
+      "category": "n8n-nodes-base",
+      "name": "formTrigger",
+      "usage_count": 114
+    },
+    {
+      "type": "n8n-nodes-base.slack",
+      "category": "n8n-nodes-base",
+      "name": "slack",
+      "usage_count": 140
+    },
+    {
+      "type": "n8n-nodes-base.airtop",
+      "category": "n8n-nodes-base",
+      "name": "airtop",
+      "usage_count": 10
+    },
+    {
+      "type": "n8n-nodes-base.amqpTrigger",
+      "category": "n8n-nodes-base",
+      "name": "amqpTrigger",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.apiTemplateIo",
+      "category": "n8n-nodes-base",
+      "name": "apiTemplateIo",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.notion",
+      "category": "n8n-nodes-base",
+      "name": "notion",
+      "usage_count": 61
+    },
+    {
+      "type": "n8n-nodes-base.asana",
+      "category": "n8n-nodes-base",
+      "name": "asana",
+      "usage_count": 6
+    },
+    {
+      "type": "n8n-nodes-base.asanaTrigger",
+      "category": "n8n-nodes-base",
+      "name": "asanaTrigger",
+      "usage_count": 2
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.toolHttpRequest",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "toolHttpRequest",
+      "usage_count": 48
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.toolSerpApi",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "toolSerpApi",
+      "usage_count": 12
+    },
+    {
+      "type": "n8n-nodes-base.autopilot",
+      "category": "n8n-nodes-base",
+      "name": "autopilot",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.autopilotTrigger",
+      "category": "n8n-nodes-base",
+      "name": "autopilotTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.awsRekognition",
+      "category": "n8n-nodes-base",
+      "name": "awsRekognition",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.awsTranscribe",
+      "category": "n8n-nodes-base",
+      "name": "awsTranscribe",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.awsS3",
+      "category": "n8n-nodes-base",
+      "name": "awsS3",
+      "usage_count": 7
+    },
+    {
+      "type": "n8n-nodes-base.googleDriveTrigger",
+      "category": "n8n-nodes-base",
+      "name": "googleDriveTrigger",
+      "usage_count": 40
+    },
+    {
+      "type": "n8n-nodes-base.manualTrigger",
+      "category": "n8n-nodes-base",
+      "name": "manualTrigger",
+      "usage_count": 771
+    },
+    {
+      "type": "n8n-nodes-base.compression",
+      "category": "n8n-nodes-base",
+      "name": "compression",
+      "usage_count": 14
+    },
+    {
+      "type": "n8n-nodes-base.awsSnsTrigger",
+      "category": "n8n-nodes-base",
+      "name": "awsSnsTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.awsTextract",
+      "category": "n8n-nodes-base",
+      "name": "awsTextract",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.bannerbear",
+      "category": "n8n-nodes-base",
+      "name": "bannerbear",
+      "usage_count": 6
+    },
+    {
+      "type": "n8n-nodes-base.discord",
+      "category": "n8n-nodes-base",
+      "name": "discord",
+      "usage_count": 24
+    },
+    {
+      "type": "n8n-nodes-base.baserow",
+      "category": "n8n-nodes-base",
+      "name": "baserow",
+      "usage_count": 12
+    },
+    {
+      "type": "n8n-nodes-base.markdown",
+      "category": "n8n-nodes-base",
+      "name": "markdown",
+      "usage_count": 75
+    },
+    {
+      "type": "n8n-nodes-base.stravaTrigger",
+      "category": "n8n-nodes-base",
+      "name": "stravaTrigger",
+      "usage_count": 4
+    },
+    {
+      "type": "n8n-nodes-base.beeminder",
+      "category": "n8n-nodes-base",
+      "name": "beeminder",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.bitbucketTrigger",
+      "category": "n8n-nodes-base",
+      "name": "bitbucketTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.informationExtractor",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "informationExtractor",
+      "usage_count": 70
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.chainRetrievalQa",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "chainRetrievalQa",
+      "usage_count": 23
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.sentimentAnalysis",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "sentimentAnalysis",
+      "usage_count": 8
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.chainSummarization",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "chainSummarization",
+      "usage_count": 48
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.textClassifier",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "textClassifier",
+      "usage_count": 41
+    },
+    {
+      "type": "n8n-nodes-base.bitly",
+      "category": "n8n-nodes-base",
+      "name": "bitly",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.dropbox",
+      "category": "n8n-nodes-base",
+      "name": "dropbox",
+      "usage_count": 13
+    },
+    {
+      "type": "n8n-nodes-base.googleCalendar",
+      "category": "n8n-nodes-base",
+      "name": "googleCalendar",
+      "usage_count": 32
+    },
+    {
+      "type": "n8n-nodes-base.googleDocs",
+      "category": "n8n-nodes-base",
+      "name": "googleDocs",
+      "usage_count": 21
+    },
+    {
+      "type": "n8n-nodes-base.pushbullet",
+      "category": "n8n-nodes-base",
+      "name": "pushbullet",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.youTube",
+      "category": "n8n-nodes-base",
+      "name": "youTube",
+      "usage_count": 24
+    },
+    {
+      "type": "@muench-dev/n8n-nodes-bluesky.bluesky",
+      "category": "@muench-dev/n8n-nodes-bluesky",
+      "name": "bluesky",
+      "usage_count": 1
+    },
+    {
+      "type": "@watzon/n8n-nodes-perplexity.perplexity",
+      "category": "@watzon/n8n-nodes-perplexity",
+      "name": "perplexity",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-elevenlabs.elevenLabs",
+      "category": "n8n-nodes-elevenlabs",
+      "name": "elevenLabs",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.reddit",
+      "category": "n8n-nodes-base",
+      "name": "reddit",
+      "usage_count": 7
+    },
+    {
+      "type": "n8n-nodes-base.googleSheetsTrigger",
+      "category": "n8n-nodes-base",
+      "name": "googleSheetsTrigger",
+      "usage_count": 21
+    },
+    {
+      "type": "n8n-nodes-base.postgresTool",
+      "category": "n8n-nodes-base",
+      "name": "postgresTool",
+      "usage_count": 10
+    },
+    {
+      "type": "n8n-nodes-base.redisTool",
+      "category": "n8n-nodes-base",
+      "name": "redisTool",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.emailSendTool",
+      "category": "n8n-nodes-base",
+      "name": "emailSendTool",
+      "usage_count": 1
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.toolWolframAlpha",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "toolWolframAlpha",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.gmailTool",
+      "category": "n8n-nodes-base",
+      "name": "gmailTool",
+      "usage_count": 20
+    },
+    {
+      "type": "n8n-nodes-base.googleCalendarTool",
+      "category": "n8n-nodes-base",
+      "name": "googleCalendarTool",
+      "usage_count": 21
+    },
+    {
+      "type": "n8n-nodes-base.googleDocsTool",
+      "category": "n8n-nodes-base",
+      "name": "googleDocsTool",
+      "usage_count": 8
+    },
+    {
+      "type": "n8n-nodes-base.googleSheetsTool",
+      "category": "n8n-nodes-base",
+      "name": "googleSheetsTool",
+      "usage_count": 10
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.documentDefaultDataLoader",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "documentDefaultDataLoader",
+      "usage_count": 99
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.toolVectorStore",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "toolVectorStore",
+      "usage_count": 28
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.vectorStoreInMemory",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "vectorStoreInMemory",
+      "usage_count": 8
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.vectorStorePinecone",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "vectorStorePinecone",
+      "usage_count": 21
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.vectorStorePGVector",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "vectorStorePGVector",
+      "usage_count": 6
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.vectorStoreSupabase",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "vectorStoreSupabase",
+      "usage_count": 15
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.memoryPostgresChat",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "memoryPostgresChat",
+      "usage_count": 17
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.memoryRedisChat",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "memoryRedisChat",
+      "usage_count": 3
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.outputParserItemList",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "outputParserItemList",
+      "usage_count": 6
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.embeddingsGoogleGemini",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "embeddingsGoogleGemini",
+      "usage_count": 16
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.embeddingsOpenAi",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "embeddingsOpenAi",
+      "usage_count": 71
+    },
+    {
+      "type": "n8n-nodes-base.twitter",
+      "category": "n8n-nodes-base",
+      "name": "twitter",
+      "usage_count": 29
+    },
+    {
+      "type": "n8n-nodes-base.calendlyTrigger",
+      "category": "n8n-nodes-base",
+      "name": "calendlyTrigger",
+      "usage_count": 10
+    },
+    {
+      "type": "n8n-nodes-base.emailReadImap",
+      "category": "n8n-nodes-base",
+      "name": "emailReadImap",
+      "usage_count": 28
+    },
+    {
+      "type": "n8n-nodes-base.gumroadTrigger",
+      "category": "n8n-nodes-base",
+      "name": "gumroadTrigger",
+      "usage_count": 4
+    },
+    {
+      "type": "n8n-nodes-base.localFileTrigger",
+      "category": "n8n-nodes-base",
+      "name": "localFileTrigger",
+      "usage_count": 9
+    },
+    {
+      "type": "n8n-nodes-base.dateTime",
+      "category": "n8n-nodes-base",
+      "name": "dateTime",
+      "usage_count": 32
+    },
+    {
+      "type": "n8n-nodes-base.filter",
+      "category": "n8n-nodes-base",
+      "name": "filter",
+      "usage_count": 195
+    },
+    {
+      "type": "n8n-nodes-base.removeDuplicates",
+      "category": "n8n-nodes-base",
+      "name": "removeDuplicates",
+      "usage_count": 32
+    },
+    {
+      "type": "n8n-nodes-base.summarize",
+      "category": "n8n-nodes-base",
+      "name": "summarize",
+      "usage_count": 30
+    },
+    {
+      "type": "n8n-nodes-base.convertToFile",
+      "category": "n8n-nodes-base",
+      "name": "convertToFile",
+      "usage_count": 70
+    },
+    {
+      "type": "n8n-nodes-base.extractFromFile",
+      "category": "n8n-nodes-base",
+      "name": "extractFromFile",
+      "usage_count": 118
+    },
+    {
+      "type": "n8n-nodes-base.html",
+      "category": "n8n-nodes-base",
+      "name": "html",
+      "usage_count": 85
+    },
+    {
+      "type": "n8n-nodes-base.renameKeys",
+      "category": "n8n-nodes-base",
+      "name": "renameKeys",
+      "usage_count": 8
+    },
+    {
+      "type": "n8n-nodes-base.sort",
+      "category": "n8n-nodes-base",
+      "name": "sort",
+      "usage_count": 28
+    },
+    {
+      "type": "n8n-nodes-base.splitInBatches",
+      "category": "n8n-nodes-base",
+      "name": "splitInBatches",
+      "usage_count": 224
+    },
+    {
+      "type": "n8n-nodes-base.noOp",
+      "category": "n8n-nodes-base",
+      "name": "noOp",
+      "usage_count": 249
+    },
+    {
+      "type": "n8n-nodes-base.executeCommand",
+      "category": "n8n-nodes-base",
+      "name": "executeCommand",
+      "usage_count": 23
+    },
+    {
+      "type": "n8n-nodes-base.executionData",
+      "category": "n8n-nodes-base",
+      "name": "executionData",
+      "usage_count": 14
+    },
+    {
+      "type": "n8n-nodes-base.ftp",
+      "category": "n8n-nodes-base",
+      "name": "ftp",
+      "usage_count": 5
+    },
+    {
+      "type": "n8n-nodes-base.respondToWebhook",
+      "category": "n8n-nodes-base",
+      "name": "respondToWebhook",
+      "usage_count": 158
+    },
+    {
+      "type": "n8n-nodes-base.rssFeedRead",
+      "category": "n8n-nodes-base",
+      "name": "rssFeedRead",
+      "usage_count": 25
+    },
+    {
+      "type": "n8n-nodes-base.aiTransform",
+      "category": "n8n-nodes-base",
+      "name": "aiTransform",
+      "usage_count": 1
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.mcpClientTool",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "mcpClientTool",
+      "usage_count": 9
+    },
+    {
+      "type": "n8n-nodes-base.bitwarden",
+      "category": "n8n-nodes-base",
+      "name": "bitwarden",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.boxTrigger",
+      "category": "n8n-nodes-base",
+      "name": "boxTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.dropcontact",
+      "category": "n8n-nodes-base",
+      "name": "dropcontact",
+      "usage_count": 5
+    },
+    {
+      "type": "n8n-nodes-base.mautic",
+      "category": "n8n-nodes-base",
+      "name": "mautic",
+      "usage_count": 9
+    },
+    {
+      "type": "n8n-nodes-base.clearbit",
+      "category": "n8n-nodes-base",
+      "name": "clearbit",
+      "usage_count": 12
+    },
+    {
+      "type": "n8n-nodes-base.hubspot",
+      "category": "n8n-nodes-base",
+      "name": "hubspot",
+      "usage_count": 34
+    },
+    {
+      "type": "n8n-nodes-base.chargebeeTrigger",
+      "category": "n8n-nodes-base",
+      "name": "chargebeeTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.clickUpTrigger",
+      "category": "n8n-nodes-base",
+      "name": "clickUpTrigger",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.notionTrigger",
+      "category": "n8n-nodes-base",
+      "name": "notionTrigger",
+      "usage_count": 13
+    },
+    {
+      "type": "n8n-nodes-base.clickUp",
+      "category": "n8n-nodes-base",
+      "name": "clickUp",
+      "usage_count": 6
+    },
+    {
+      "type": "n8n-nodes-base.clockify",
+      "category": "n8n-nodes-base",
+      "name": "clockify",
+      "usage_count": 6
+    },
+    {
+      "type": "n8n-nodes-base.clockifyTrigger",
+      "category": "n8n-nodes-base",
+      "name": "clockifyTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.spotify",
+      "category": "n8n-nodes-base",
+      "name": "spotify",
+      "usage_count": 12
+    },
+    {
+      "type": "n8n-nodes-base.nocoDb",
+      "category": "n8n-nodes-base",
+      "name": "nocoDb",
+      "usage_count": 11
+    },
+    {
+      "type": "n8n-nodes-base.n8n",
+      "category": "n8n-nodes-base",
+      "name": "n8n",
+      "usage_count": 50
+    },
+    {
+      "type": "n8n-nodes-base.github",
+      "category": "n8n-nodes-base",
+      "name": "github",
+      "usage_count": 28
+    },
+    {
+      "type": "n8n-nodes-base.pipedrive",
+      "category": "n8n-nodes-base",
+      "name": "pipedrive",
+      "usage_count": 20
+    },
+    {
+      "type": "n8n-nodes-base.zendesk",
+      "category": "n8n-nodes-base",
+      "name": "zendesk",
+      "usage_count": 14
+    },
+    {
+      "type": "n8n-nodes-base.stripe",
+      "category": "n8n-nodes-base",
+      "name": "stripe",
+      "usage_count": 4
+    },
+    {
+      "type": "n8n-nodes-base.itemLists",
+      "category": "n8n-nodes-base",
+      "name": "itemLists",
+      "usage_count": 46
+    },
+    {
+      "type": "n8n-nodes-base.readPDF",
+      "category": "n8n-nodes-base",
+      "name": "readPDF",
+      "usage_count": 4
+    },
+    {
+      "type": "n8n-nodes-base.openAi",
+      "category": "n8n-nodes-base",
+      "name": "openAi",
+      "usage_count": 32
+    },
+    {
+      "type": "n8n-nodes-base.googleDrive",
+      "category": "n8n-nodes-base",
+      "name": "googleDrive",
+      "usage_count": 165
+    },
+    {
+      "type": "n8n-nodes-base.crypto",
+      "category": "n8n-nodes-base",
+      "name": "crypto",
+      "usage_count": 18
+    },
+    {
+      "type": "n8n-nodes-base.postgresTrigger",
+      "category": "n8n-nodes-base",
+      "name": "postgresTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.linearTrigger",
+      "category": "n8n-nodes-base",
+      "name": "linearTrigger",
+      "usage_count": 4
+    },
+    {
+      "type": "n8n-nodes-base.googleCloudStorage",
+      "category": "n8n-nodes-base",
+      "name": "googleCloudStorage",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.emailSend",
+      "category": "n8n-nodes-base",
+      "name": "emailSend",
+      "usage_count": 71
+    },
+    {
+      "type": "n8n-nodes-base.form",
+      "category": "n8n-nodes-base",
+      "name": "form",
+      "usage_count": 33
+    },
+    {
+      "type": "n8n-nodes-base.graphql",
+      "category": "n8n-nodes-base",
+      "name": "graphql",
+      "usage_count": 15
+    },
+    {
+      "type": "n8n-nodes-base.linear",
+      "category": "n8n-nodes-base",
+      "name": "linear",
+      "usage_count": 8
+    },
+    {
+      "type": "n8n-nodes-base.todoist",
+      "category": "n8n-nodes-base",
+      "name": "todoist",
+      "usage_count": 10
+    },
+    {
+      "type": "n8n-nodes-base.webflow",
+      "category": "n8n-nodes-base",
+      "name": "webflow",
+      "usage_count": 4
+    },
+    {
+      "type": "n8n-nodes-base.compareDatasets",
+      "category": "n8n-nodes-base",
+      "name": "compareDatasets",
+      "usage_count": 16
+    },
+    {
+      "type": "n8n-nodes-base.readWriteFile",
+      "category": "n8n-nodes-base",
+      "name": "readWriteFile",
+      "usage_count": 47
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.textSplitterRecursiveCharacterTextSplitter",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "textSplitterRecursiveCharacterTextSplitter",
+      "usage_count": 76
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.retrieverVectorStore",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "retrieverVectorStore",
+      "usage_count": 20
+    },
+    {
+      "type": "n8n-nodes-base.mqtt",
+      "category": "n8n-nodes-base",
+      "name": "mqtt",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.mqttTrigger",
+      "category": "n8n-nodes-base",
+      "name": "mqttTrigger",
+      "usage_count": 4
+    },
+    {
+      "type": "n8n-nodes-base.editImage",
+      "category": "n8n-nodes-base",
+      "name": "editImage",
+      "usage_count": 29
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.vectorStoreQdrant",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "vectorStoreQdrant",
+      "usage_count": 45
+    },
+    {
+      "type": "n8n-nodes-base.moveBinaryData",
+      "category": "n8n-nodes-base",
+      "name": "moveBinaryData",
+      "usage_count": 28
+    },
+    {
+      "type": "n8n-nodes-base.postgres",
+      "category": "n8n-nodes-base",
+      "name": "postgres",
+      "usage_count": 31
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.lmChatGroq",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "lmChatGroq",
+      "usage_count": 12
+    },
+    {
+      "type": "n8n-nodes-base.microsoftOutlookTrigger",
+      "category": "n8n-nodes-base",
+      "name": "microsoftOutlookTrigger",
+      "usage_count": 7
+    },
+    {
+      "type": "n8n-nodes-base.jira",
+      "category": "n8n-nodes-base",
+      "name": "jira",
+      "usage_count": 19
+    },
+    {
+      "type": "n8n-nodes-base.microsoftOutlook",
+      "category": "n8n-nodes-base",
+      "name": "microsoftOutlook",
+      "usage_count": 20
+    },
+    {
+      "type": "n8n-nodes-base.whatsApp",
+      "category": "n8n-nodes-base",
+      "name": "whatsApp",
+      "usage_count": 19
+    },
+    {
+      "type": "n8n-nodes-base.ssh",
+      "category": "n8n-nodes-base",
+      "name": "ssh",
+      "usage_count": 9
+    },
+    {
+      "type": "n8n-nodes-base.ghost",
+      "category": "n8n-nodes-base",
+      "name": "ghost",
+      "usage_count": 3
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.toolThink",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "toolThink",
+      "usage_count": 5
+    },
+    {
+      "type": "n8n-nodes-base.supabase",
+      "category": "n8n-nodes-base",
+      "name": "supabase",
+      "usage_count": 20
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.documentJsonInputLoader",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "documentJsonInputLoader",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.githubTrigger",
+      "category": "n8n-nodes-base",
+      "name": "githubTrigger",
+      "usage_count": 11
+    },
+    {
+      "type": "n8n-nodes-base.xml",
+      "category": "n8n-nodes-base",
+      "name": "xml",
+      "usage_count": 23
+    },
+    {
+      "type": "n8n-nodes-mcp.mcpClient",
+      "category": "n8n-nodes-mcp",
+      "name": "mcpClient",
+      "usage_count": 4
+    },
+    {
+      "type": "n8n-nodes-base.pipedriveTrigger",
+      "category": "n8n-nodes-base",
+      "name": "pipedriveTrigger",
+      "usage_count": 6
+    },
+    {
+      "type": "n8n-nodes-base.agileCrm",
+      "category": "n8n-nodes-base",
+      "name": "agileCrm",
+      "usage_count": 2
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "lmChatOpenRouter",
+      "usage_count": 23
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.lmChatDeepSeek",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "lmChatDeepSeek",
+      "usage_count": 4
+    },
+    {
+      "type": "n8n-nodes-base.webflowTrigger",
+      "category": "n8n-nodes-base",
+      "name": "webflowTrigger",
+      "usage_count": 5
+    },
+    {
+      "type": "n8n-nodes-base.googleAnalyticsTool",
+      "category": "n8n-nodes-base",
+      "name": "googleAnalyticsTool",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.quickChart",
+      "category": "n8n-nodes-base",
+      "name": "quickChart",
+      "usage_count": 5
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.embeddingsMistralCloud",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "embeddingsMistralCloud",
+      "usage_count": 8
+    },
+    {
+      "type": "n8n-nodes-base.mySql",
+      "category": "n8n-nodes-base",
+      "name": "mySql",
+      "usage_count": 19
+    },
+    {
+      "type": "n8n-nodes-base.mySqlTool",
+      "category": "n8n-nodes-base",
+      "name": "mySqlTool",
+      "usage_count": 3
+    },
+    {
+      "type": "n8n-nodes-base.whatsAppTrigger",
+      "category": "n8n-nodes-base",
+      "name": "whatsAppTrigger",
+      "usage_count": 9
+    },
+    {
+      "type": "n8n-nodes-base.coinGecko",
+      "category": "n8n-nodes-base",
+      "name": "coinGecko",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.convertKitTrigger",
+      "category": "n8n-nodes-base",
+      "name": "convertKitTrigger",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.copperTrigger",
+      "category": "n8n-nodes-base",
+      "name": "copperTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.theHive",
+      "category": "n8n-nodes-base",
+      "name": "theHive",
+      "usage_count": 4
+    },
+    {
+      "type": "n8n-nodes-base.cortex",
+      "category": "n8n-nodes-base",
+      "name": "cortex",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.customerIoTrigger",
+      "category": "n8n-nodes-base",
+      "name": "customerIoTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.shopify",
+      "category": "n8n-nodes-base",
+      "name": "shopify",
+      "usage_count": 5
+    },
+    {
+      "type": "n8n-nodes-base.htmlExtract",
+      "category": "n8n-nodes-base",
+      "name": "htmlExtract",
+      "usage_count": 13
+    },
+    {
+      "type": "n8n-nodes-base.functionItem",
+      "category": "n8n-nodes-base",
+      "name": "functionItem",
+      "usage_count": 30
+    },
+    {
+      "type": "n8n-nodes-base.zoom",
+      "category": "n8n-nodes-base",
+      "name": "zoom",
+      "usage_count": 6
+    },
+    {
+      "type": "n8n-nodes-base.serviceNow",
+      "category": "n8n-nodes-base",
+      "name": "serviceNow",
+      "usage_count": 3
+    },
+    {
+      "type": "n8n-nodes-base.wordpress",
+      "category": "n8n-nodes-base",
+      "name": "wordpress",
+      "usage_count": 29
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.mcpTrigger",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "mcpTrigger",
+      "usage_count": 19
+    },
+    {
+      "type": "n8n-nodes-base.debugHelper",
+      "category": "n8n-nodes-base",
+      "name": "debugHelper",
+      "usage_count": 4
+    },
+    {
+      "type": "n8n-nodes-base.start",
+      "category": "n8n-nodes-base",
+      "name": "start",
+      "usage_count": 3
+    },
+    {
+      "type": "n8n-nodes-base.hunter",
+      "category": "n8n-nodes-base",
+      "name": "hunter",
+      "usage_count": 9
+    },
+    {
+      "type": "n8n-nodes-base.discordTool",
+      "category": "n8n-nodes-base",
+      "name": "discordTool",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.httpRequestTool",
+      "category": "n8n-nodes-base",
+      "name": "httpRequestTool",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.elasticsearch",
+      "category": "n8n-nodes-base",
+      "name": "elasticsearch",
+      "usage_count": 3
+    },
+    {
+      "type": "n8n-nodes-base.nextCloud",
+      "category": "n8n-nodes-base",
+      "name": "nextCloud",
+      "usage_count": 6
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.textSplitterTokenSplitter",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "textSplitterTokenSplitter",
+      "usage_count": 28
+    },
+    {
+      "type": "n8n-nodes-base.spreadsheetFile",
+      "category": "n8n-nodes-base",
+      "name": "spreadsheetFile",
+      "usage_count": 36
+    },
+    {
+      "type": "n8n-nodes-base.emelia",
+      "category": "n8n-nodes-base",
+      "name": "emelia",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.errorTrigger",
+      "category": "n8n-nodes-base",
+      "name": "errorTrigger",
+      "usage_count": 18
+    },
+    {
+      "type": "n8n-nodes-base.mondayCom",
+      "category": "n8n-nodes-base",
+      "name": "mondayCom",
+      "usage_count": 8
+    },
+    {
+      "type": "n8n-nodes-base.twilio",
+      "category": "n8n-nodes-base",
+      "name": "twilio",
+      "usage_count": 21
+    },
+    {
+      "type": "n8n-nodes-base.mailgun",
+      "category": "n8n-nodes-base",
+      "name": "mailgun",
+      "usage_count": 3
+    },
+    {
+      "type": "n8n-nodes-base.writeBinaryFile",
+      "category": "n8n-nodes-base",
+      "name": "writeBinaryFile",
+      "usage_count": 22
+    },
+    {
+      "type": "n8n-nodes-base.readBinaryFile",
+      "category": "n8n-nodes-base",
+      "name": "readBinaryFile",
+      "usage_count": 26
+    },
+    {
+      "type": "n8n-nodes-base.pushover",
+      "category": "n8n-nodes-base",
+      "name": "pushover",
+      "usage_count": 3
+    },
+    {
+      "type": "n8n-nodes-base.eventbriteTrigger",
+      "category": "n8n-nodes-base",
+      "name": "eventbriteTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.lmChatMistralCloud",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "lmChatMistralCloud",
+      "usage_count": 8
+    },
+    {
+      "type": "n8n-nodes-base.executeCommandTool",
+      "category": "n8n-nodes-base",
+      "name": "executeCommandTool",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.slackTrigger",
+      "category": "n8n-nodes-base",
+      "name": "slackTrigger",
+      "usage_count": 2
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.embeddingsCohere",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "embeddingsCohere",
+      "usage_count": 1
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.vectorStoreMilvus",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "vectorStoreMilvus",
+      "usage_count": 4
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.lmOpenAi",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "lmOpenAi",
+      "usage_count": 7
+    },
+    {
+      "type": "n8n-nodes-base.facebookTrigger",
+      "category": "n8n-nodes-base",
+      "name": "facebookTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.mattermost",
+      "category": "n8n-nodes-base",
+      "name": "mattermost",
+      "usage_count": 29
+    },
+    {
+      "type": "n8n-nodes-base.facebookLeadAdsTrigger",
+      "category": "n8n-nodes-base",
+      "name": "facebookLeadAdsTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.figmaTrigger",
+      "category": "n8n-nodes-base",
+      "name": "figmaTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.lmChatOllama",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "lmChatOllama",
+      "usage_count": 19
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.code",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "code",
+      "usage_count": 8
+    },
+    {
+      "type": "CUSTOM.klicktippTrigger",
+      "category": "CUSTOM",
+      "name": "klicktippTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "CUSTOM.klicktipp",
+      "category": "CUSTOM",
+      "name": "klicktipp",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.n8nTrainingCustomerDatastore",
+      "category": "n8n-nodes-base",
+      "name": "n8nTrainingCustomerDatastore",
+      "usage_count": 12
+    },
+    {
+      "type": "n8n-nodes-base.flowTrigger",
+      "category": "n8n-nodes-base",
+      "name": "flowTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.nasa",
+      "category": "n8n-nodes-base",
+      "name": "nasa",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-brightdata.brightData",
+      "category": "n8n-nodes-brightdata",
+      "name": "brightData",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-document-generator.documentGenerator",
+      "category": "n8n-nodes-document-generator",
+      "name": "documentGenerator",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.s3",
+      "category": "n8n-nodes-base",
+      "name": "s3",
+      "usage_count": 7
+    },
+    {
+      "type": "n8n-nodes-base.awsSes",
+      "category": "n8n-nodes-base",
+      "name": "awsSes",
+      "usage_count": 4
+    },
+    {
+      "type": "n8n-nodes-base.uproc",
+      "category": "n8n-nodes-base",
+      "name": "uproc",
+      "usage_count": 9
+    },
+    {
+      "type": "n8n-nodes-base.mongoDb",
+      "category": "n8n-nodes-base",
+      "name": "mongoDb",
+      "usage_count": 5
+    },
+    {
+      "type": "n8n-nodes-document-generator.DocumentGenerator",
+      "category": "n8n-nodes-document-generator",
+      "name": "DocumentGenerator",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.raindrop",
+      "category": "n8n-nodes-base",
+      "name": "raindrop",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.getResponseTrigger",
+      "category": "n8n-nodes-base",
+      "name": "getResponseTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.gitlab",
+      "category": "n8n-nodes-base",
+      "name": "gitlab",
+      "usage_count": 3
+    },
+    {
+      "type": "n8n-nodes-base.homeAssistant",
+      "category": "n8n-nodes-base",
+      "name": "homeAssistant",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.gitlabTrigger",
+      "category": "n8n-nodes-base",
+      "name": "gitlabTrigger",
+      "usage_count": 3
+    },
+    {
+      "type": "n8n-nodes-base.odoo",
+      "category": "n8n-nodes-base",
+      "name": "odoo",
+      "usage_count": 5
+    },
+    {
+      "type": "n8n-nodes-base.wordpressTool",
+      "category": "n8n-nodes-base",
+      "name": "wordpressTool",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-mcp.mcpClientTool",
+      "category": "n8n-nodes-mcp",
+      "name": "mcpClientTool",
+      "usage_count": 6
+    },
+    {
+      "type": "n8n-nodes-base.googleAnalytics",
+      "category": "n8n-nodes-base",
+      "name": "googleAnalytics",
+      "usage_count": 7
+    },
+    {
+      "type": "n8n-nodes-base.googleBigQuery",
+      "category": "n8n-nodes-base",
+      "name": "googleBigQuery",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.googleContacts",
+      "category": "n8n-nodes-base",
+      "name": "googleContacts",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.googleDriveTool",
+      "category": "n8n-nodes-base",
+      "name": "googleDriveTool",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.facebookGraphApi",
+      "category": "n8n-nodes-base",
+      "name": "facebookGraphApi",
+      "usage_count": 11
+    },
+    {
+      "type": "n8n-nodes-base.interval",
+      "category": "n8n-nodes-base",
+      "name": "interval",
+      "usage_count": 9
+    },
+    {
+      "type": "@custom-js/n8n-nodes-pdf-toolkit.websiteScreenshot",
+      "category": "@custom-js/n8n-nodes-pdf-toolkit",
+      "name": "websiteScreenshot",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.orbit",
+      "category": "n8n-nodes-base",
+      "name": "orbit",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.googleSlides",
+      "category": "n8n-nodes-base",
+      "name": "googleSlides",
+      "usage_count": 4
+    },
+    {
+      "type": "n8n-nodes-base.hubspotTrigger",
+      "category": "n8n-nodes-base",
+      "name": "hubspotTrigger",
+      "usage_count": 7
+    },
+    {
+      "type": "n8n-nodes-base.googleTasks",
+      "category": "n8n-nodes-base",
+      "name": "googleTasks",
+      "usage_count": 3
+    },
+    {
+      "type": "n8n-nodes-base.googleTasksTool",
+      "category": "n8n-nodes-base",
+      "name": "googleTasksTool",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.telegramTool",
+      "category": "n8n-nodes-base",
+      "name": "telegramTool",
+      "usage_count": 4
+    },
+    {
+      "type": "n8n-nodes-evolution-api.evolutionApi",
+      "category": "n8n-nodes-evolution-api",
+      "name": "evolutionApi",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.googleTranslate",
+      "category": "n8n-nodes-base",
+      "name": "googleTranslate",
+      "usage_count": 3
+    },
+    {
+      "type": "n8n-nodes-base.goToWebinar",
+      "category": "n8n-nodes-base",
+      "name": "goToWebinar",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.grist",
+      "category": "n8n-nodes-base",
+      "name": "grist",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.helpScoutTrigger",
+      "category": "n8n-nodes-base",
+      "name": "helpScoutTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.amqp",
+      "category": "n8n-nodes-base",
+      "name": "amqp",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.awsSqs",
+      "category": "n8n-nodes-base",
+      "name": "awsSqs",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.googleFirebaseRealtimeDatabase",
+      "category": "n8n-nodes-base",
+      "name": "googleFirebaseRealtimeDatabase",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.rabbitmq",
+      "category": "n8n-nodes-base",
+      "name": "rabbitmq",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.medium",
+      "category": "n8n-nodes-base",
+      "name": "medium",
+      "usage_count": 3
+    },
+    {
+      "type": "n8n-nodes-base.highLevel",
+      "category": "n8n-nodes-base",
+      "name": "highLevel",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.keap",
+      "category": "n8n-nodes-base",
+      "name": "keap",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.sendInBlue",
+      "category": "n8n-nodes-base",
+      "name": "sendInBlue",
+      "usage_count": 2
+    },
+    {
+      "type": "@horka.tv/n8n-nodes-storage-kv.keyValueStorage",
+      "category": "@horka",
+      "name": "keyValueStorage",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.rssFeedReadTrigger",
+      "category": "n8n-nodes-base",
+      "name": "rssFeedReadTrigger",
+      "usage_count": 5
+    },
+    {
+      "type": "n8n-nodes-base.stripeTrigger",
+      "category": "n8n-nodes-base",
+      "name": "stripeTrigger",
+      "usage_count": 4
+    },
+    {
+      "type": "n8n-nodes-base.quickbooks",
+      "category": "n8n-nodes-base",
+      "name": "quickbooks",
+      "usage_count": 3
+    },
+    {
+      "type": "n8n-nodes-base.rocketchat",
+      "category": "n8n-nodes-base",
+      "name": "rocketchat",
+      "usage_count": 3
+    },
+    {
+      "type": "n8n-nodes-base.timescaleDb",
+      "category": "n8n-nodes-base",
+      "name": "timescaleDb",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.kafka",
+      "category": "n8n-nodes-base",
+      "name": "kafka",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.deepL",
+      "category": "n8n-nodes-base",
+      "name": "deepL",
+      "usage_count": 1
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.manualChatTrigger",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "manualChatTrigger",
+      "usage_count": 9
+    },
+    {
+      "type": "n8n-nodes-base.mailchimp",
+      "category": "n8n-nodes-base",
+      "name": "mailchimp",
+      "usage_count": 7
+    },
+    {
+      "type": "n8n-nodes-base.humanticAi",
+      "category": "n8n-nodes-base",
+      "name": "humanticAi",
+      "usage_count": 3
+    },
+    {
+      "type": "n8n-nodes-base.sendGrid",
+      "category": "n8n-nodes-base",
+      "name": "sendGrid",
+      "usage_count": 3
+    },
+    {
+      "type": "n8n-nodes-base.intercom",
+      "category": "n8n-nodes-base",
+      "name": "intercom",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.invoiceNinjaTrigger",
+      "category": "n8n-nodes-base",
+      "name": "invoiceNinjaTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.jiraTrigger",
+      "category": "n8n-nodes-base",
+      "name": "jiraTrigger",
+      "usage_count": 3
+    },
+    {
+      "type": "n8n-nodes-base.jiraTool",
+      "category": "n8n-nodes-base",
+      "name": "jiraTool",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.notionTool",
+      "category": "n8n-nodes-base",
+      "name": "notionTool",
+      "usage_count": 3
+    },
+    {
+      "type": "n8n-nodes-base.keapTrigger",
+      "category": "n8n-nodes-base",
+      "name": "keapTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.lemlistTrigger",
+      "category": "n8n-nodes-base",
+      "name": "lemlistTrigger",
+      "usage_count": 4
+    },
+    {
+      "type": "n8n-nodes-base.strava",
+      "category": "n8n-nodes-base",
+      "name": "strava",
+      "usage_count": 3
+    },
+    {
+      "type": "n8n-nodes-youtube-transcription-dmr.youtubeTranscripter",
+      "category": "n8n-nodes-youtube-transcription-dmr",
+      "name": "youtubeTranscripter",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.redis",
+      "category": "n8n-nodes-base",
+      "name": "redis",
+      "usage_count": 19
+    },
+    {
+      "type": "n8n-nodes-base.linkedIn",
+      "category": "n8n-nodes-base",
+      "name": "linkedIn",
+      "usage_count": 14
+    },
+    {
+      "type": "n8n-nodes-base.microsoftOneDrive",
+      "category": "n8n-nodes-base",
+      "name": "microsoftOneDrive",
+      "usage_count": 5
+    },
+    {
+      "type": "n8n-nodes-base.mailcheck",
+      "category": "n8n-nodes-base",
+      "name": "mailcheck",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.mailchimpTrigger",
+      "category": "n8n-nodes-base",
+      "name": "mailchimpTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.mailerLite",
+      "category": "n8n-nodes-base",
+      "name": "mailerLite",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.mailjetTrigger",
+      "category": "n8n-nodes-base",
+      "name": "mailjetTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.mailjet",
+      "category": "n8n-nodes-base",
+      "name": "mailjet",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.totp",
+      "category": "n8n-nodes-base",
+      "name": "totp",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.copper",
+      "category": "n8n-nodes-base",
+      "name": "copper",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.coda",
+      "category": "n8n-nodes-base",
+      "name": "coda",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.chargebee",
+      "category": "n8n-nodes-base",
+      "name": "chargebee",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.filemaker",
+      "category": "n8n-nodes-base",
+      "name": "filemaker",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.googleBooks",
+      "category": "n8n-nodes-base",
+      "name": "googleBooks",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.iCal",
+      "category": "n8n-nodes-base",
+      "name": "iCal",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.storyblok",
+      "category": "n8n-nodes-base",
+      "name": "storyblok",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.microsoftToDo",
+      "category": "n8n-nodes-base",
+      "name": "microsoftToDo",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.git",
+      "category": "n8n-nodes-base",
+      "name": "git",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.getResponse",
+      "category": "n8n-nodes-base",
+      "name": "getResponse",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.googleCalendarTrigger",
+      "category": "n8n-nodes-base",
+      "name": "googleCalendarTrigger",
+      "usage_count": 4
+    },
+    {
+      "type": "n8n-nodes-base.strapi",
+      "category": "n8n-nodes-base",
+      "name": "strapi",
+      "usage_count": 5
+    },
+    {
+      "type": "n8n-nodes-base.disqus",
+      "category": "n8n-nodes-base",
+      "name": "disqus",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.harvest",
+      "category": "n8n-nodes-base",
+      "name": "harvest",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.segment",
+      "category": "n8n-nodes-base",
+      "name": "segment",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.drift",
+      "category": "n8n-nodes-base",
+      "name": "drift",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.zulip",
+      "category": "n8n-nodes-base",
+      "name": "zulip",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.vero",
+      "category": "n8n-nodes-base",
+      "name": "vero",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.salesmate",
+      "category": "n8n-nodes-base",
+      "name": "salesmate",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.uplead",
+      "category": "n8n-nodes-base",
+      "name": "uplead",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.flow",
+      "category": "n8n-nodes-base",
+      "name": "flow",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.sendy",
+      "category": "n8n-nodes-base",
+      "name": "sendy",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.quickbase",
+      "category": "n8n-nodes-base",
+      "name": "quickbase",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.openThesaurus",
+      "category": "n8n-nodes-base",
+      "name": "openThesaurus",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.pagerDuty",
+      "category": "n8n-nodes-base",
+      "name": "pagerDuty",
+      "usage_count": 5
+    },
+    {
+      "type": "n8n-nodes-base.questDb",
+      "category": "n8n-nodes-base",
+      "name": "questDb",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.iterable",
+      "category": "n8n-nodes-base",
+      "name": "iterable",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.yourls",
+      "category": "n8n-nodes-base",
+      "name": "yourls",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.snowflake",
+      "category": "n8n-nodes-base",
+      "name": "snowflake",
+      "usage_count": 3
+    },
+    {
+      "type": "n8n-nodes-base.twist",
+      "category": "n8n-nodes-base",
+      "name": "twist",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.Brandfetch",
+      "category": "n8n-nodes-base",
+      "name": "Brandfetch",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.salesforce",
+      "category": "n8n-nodes-base",
+      "name": "salesforce",
+      "usage_count": 6
+    },
+    {
+      "type": "n8n-nodes-base.googleFirebaseCloudFirestore",
+      "category": "n8n-nodes-base",
+      "name": "googleFirebaseCloudFirestore",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.wooCommerce",
+      "category": "n8n-nodes-base",
+      "name": "wooCommerce",
+      "usage_count": 4
+    },
+    {
+      "type": "n8n-nodes-base.egoi",
+      "category": "n8n-nodes-base",
+      "name": "egoi",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.microsoftSql",
+      "category": "n8n-nodes-base",
+      "name": "microsoftSql",
+      "usage_count": 2
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.retrieverWorkflow",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "retrieverWorkflow",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.twake",
+      "category": "n8n-nodes-base",
+      "name": "twake",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.phantombuster",
+      "category": "n8n-nodes-base",
+      "name": "phantombuster",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.gSuiteAdmin",
+      "category": "n8n-nodes-base",
+      "name": "gSuiteAdmin",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.convertKit",
+      "category": "n8n-nodes-base",
+      "name": "convertKit",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.sentryIo",
+      "category": "n8n-nodes-base",
+      "name": "sentryIo",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.mailerLiteTrigger",
+      "category": "n8n-nodes-base",
+      "name": "mailerLiteTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.customerIo",
+      "category": "n8n-nodes-base",
+      "name": "customerIo",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.readBinaryFiles",
+      "category": "n8n-nodes-base",
+      "name": "readBinaryFiles",
+      "usage_count": 5
+    },
+    {
+      "type": "@custom-js/n8n-nodes-pdf-toolkit.html2Pdf",
+      "category": "@custom-js/n8n-nodes-pdf-toolkit",
+      "name": "html2Pdf",
+      "usage_count": 5
+    },
+    {
+      "type": "@custom-js/n8n-nodes-pdf-toolkit.CompressPDF",
+      "category": "@custom-js/n8n-nodes-pdf-toolkit",
+      "name": "CompressPDF",
+      "usage_count": 1
+    },
+    {
+      "type": "@custom-js/n8n-nodes-pdf-toolkit.PdfToPng",
+      "category": "@custom-js/n8n-nodes-pdf-toolkit",
+      "name": "PdfToPng",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.activeCampaign",
+      "category": "n8n-nodes-base",
+      "name": "activeCampaign",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.payPal",
+      "category": "n8n-nodes-base",
+      "name": "payPal",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.signl4",
+      "category": "n8n-nodes-base",
+      "name": "signl4",
+      "usage_count": 5
+    },
+    {
+      "type": "n8n-nodes-base.freshdesk",
+      "category": "n8n-nodes-base",
+      "name": "freshdesk",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.zammad",
+      "category": "n8n-nodes-base",
+      "name": "zammad",
+      "usage_count": 5
+    },
+    {
+      "type": "n8n-nodes-base.awsSns",
+      "category": "n8n-nodes-base",
+      "name": "awsSns",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.awsLambda",
+      "category": "n8n-nodes-base",
+      "name": "awsLambda",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.msg91",
+      "category": "n8n-nodes-base",
+      "name": "msg91",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.cockpit",
+      "category": "n8n-nodes-base",
+      "name": "cockpit",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.travisCi",
+      "category": "n8n-nodes-base",
+      "name": "travisCi",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.invoiceNinja",
+      "category": "n8n-nodes-base",
+      "name": "invoiceNinja",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.rundeck",
+      "category": "n8n-nodes-base",
+      "name": "rundeck",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.xero",
+      "category": "n8n-nodes-base",
+      "name": "xero",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.paddle",
+      "category": "n8n-nodes-base",
+      "name": "paddle",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.zohoCrm",
+      "category": "n8n-nodes-base",
+      "name": "zohoCrm",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.box",
+      "category": "n8n-nodes-base",
+      "name": "box",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.trello",
+      "category": "n8n-nodes-base",
+      "name": "trello",
+      "usage_count": 8
+    },
+    {
+      "type": "n8n-nodes-base.microsoftExcel",
+      "category": "n8n-nodes-base",
+      "name": "microsoftExcel",
+      "usage_count": 4
+    },
+    {
+      "type": "n8n-nodes-base.helpScout",
+      "category": "n8n-nodes-base",
+      "name": "helpScout",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.mandrill",
+      "category": "n8n-nodes-base",
+      "name": "mandrill",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.philipsHue",
+      "category": "n8n-nodes-base",
+      "name": "philipsHue",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.crateDb",
+      "category": "n8n-nodes-base",
+      "name": "crateDb",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.mocean",
+      "category": "n8n-nodes-base",
+      "name": "mocean",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.contentful",
+      "category": "n8n-nodes-base",
+      "name": "contentful",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.unleashedSoftware",
+      "category": "n8n-nodes-base",
+      "name": "unleashedSoftware",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.microsoftTeams",
+      "category": "n8n-nodes-base",
+      "name": "microsoftTeams",
+      "usage_count": 5
+    },
+    {
+      "type": "n8n-nodes-base.taiga",
+      "category": "n8n-nodes-base",
+      "name": "taiga",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.wekan",
+      "category": "n8n-nodes-base",
+      "name": "wekan",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.automizy",
+      "category": "n8n-nodes-base",
+      "name": "automizy",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.matrix",
+      "category": "n8n-nodes-base",
+      "name": "matrix",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.circleCi",
+      "category": "n8n-nodes-base",
+      "name": "circleCi",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.messageBird",
+      "category": "n8n-nodes-base",
+      "name": "messageBird",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.openWeatherMap",
+      "category": "n8n-nodes-base",
+      "name": "openWeatherMap",
+      "usage_count": 15
+    },
+    {
+      "type": "n8n-nodes-base.securityScorecard",
+      "category": "n8n-nodes-base",
+      "name": "securityScorecard",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.sms77",
+      "category": "n8n-nodes-base",
+      "name": "sms77",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.discourse",
+      "category": "n8n-nodes-base",
+      "name": "discourse",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.stackby",
+      "category": "n8n-nodes-base",
+      "name": "stackby",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.peekalink",
+      "category": "n8n-nodes-base",
+      "name": "peekalink",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.tapfiliate",
+      "category": "n8n-nodes-base",
+      "name": "tapfiliate",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.affinity",
+      "category": "n8n-nodes-base",
+      "name": "affinity",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-netsuite.netsuite",
+      "category": "n8n-nodes-netsuite",
+      "name": "netsuite",
+      "usage_count": 1
+    },
+    {
+      "type": "@custom-js/n8n-nodes-pdf-toolkit.PdfToText",
+      "category": "@custom-js/n8n-nodes-pdf-toolkit",
+      "name": "PdfToText",
+      "usage_count": 1
+    },
+    {
+      "type": "@custom-js/n8n-nodes-pdf-toolkit.mergePdfs",
+      "category": "@custom-js/n8n-nodes-pdf-toolkit",
+      "name": "mergePdfs",
+      "usage_count": 2
+    },
+    {
+      "type": "@searchapi/n8n-nodes-searchapi.searchApi",
+      "category": "@searchapi/n8n-nodes-searchapi",
+      "name": "searchApi",
+      "usage_count": 1
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.textSplitterCharacterTextSplitter",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "textSplitterCharacterTextSplitter",
+      "usage_count": 1
+    },
+    {
+      "type": "@custom-js/n8n-nodes-pdf-toolkit.ExtractPages",
+      "category": "@custom-js/n8n-nodes-pdf-toolkit",
+      "name": "ExtractPages",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.emeliaTrigger",
+      "category": "n8n-nodes-base",
+      "name": "emeliaTrigger",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.n8nTrigger",
+      "category": "n8n-nodes-base",
+      "name": "n8nTrigger",
+      "usage_count": 3
+    },
+    {
+      "type": "n8n-nodes-base.workflowTrigger",
+      "category": "n8n-nodes-base",
+      "name": "workflowTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.googleCloudNaturalLanguage",
+      "category": "n8n-nodes-base",
+      "name": "googleCloudNaturalLanguage",
+      "usage_count": 8
+    },
+    {
+      "type": "n8n-nodes-base.profitWell",
+      "category": "n8n-nodes-base",
+      "name": "profitWell",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.wooCommerceTrigger",
+      "category": "n8n-nodes-base",
+      "name": "wooCommerceTrigger",
+      "usage_count": 6
+    },
+    {
+      "type": "n8n-nodes-base.awsComprehend",
+      "category": "n8n-nodes-base",
+      "name": "awsComprehend",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.mauticTrigger",
+      "category": "n8n-nodes-base",
+      "name": "mauticTrigger",
+      "usage_count": 3
+    },
+    {
+      "type": "n8n-nodes-base.oneSimpleApi",
+      "category": "n8n-nodes-base",
+      "name": "oneSimpleApi",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.shopifyTrigger",
+      "category": "n8n-nodes-base",
+      "name": "shopifyTrigger",
+      "usage_count": 11
+    },
+    {
+      "type": "n8n-nodes-base.microsoftOutlookTool",
+      "category": "n8n-nodes-base",
+      "name": "microsoftOutlookTool",
+      "usage_count": 4
+    },
+    {
+      "type": "n8n-nodes-base.mongoDbTool",
+      "category": "n8n-nodes-base",
+      "name": "mongoDbTool",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.n8nTrainingCustomerMessenger",
+      "category": "n8n-nodes-base",
+      "name": "n8nTrainingCustomerMessenger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.netlifyTrigger",
+      "category": "n8n-nodes-base",
+      "name": "netlifyTrigger",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.netlify",
+      "category": "n8n-nodes-base",
+      "name": "netlify",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.googlePerspective",
+      "category": "n8n-nodes-base",
+      "name": "googlePerspective",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.kafkaTrigger",
+      "category": "n8n-nodes-base",
+      "name": "kafkaTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.rabbitmqTrigger",
+      "category": "n8n-nodes-base",
+      "name": "rabbitmqTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.googleChat",
+      "category": "n8n-nodes-base",
+      "name": "googleChat",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.onfleet",
+      "category": "n8n-nodes-base",
+      "name": "onfleet",
+      "usage_count": 3
+    },
+    {
+      "type": "n8n-nodes-base.plivo",
+      "category": "n8n-nodes-base",
+      "name": "plivo",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.line",
+      "category": "n8n-nodes-base",
+      "name": "line",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.gotify",
+      "category": "n8n-nodes-base",
+      "name": "gotify",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.spontit",
+      "category": "n8n-nodes-base",
+      "name": "spontit",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.pushcut",
+      "category": "n8n-nodes-base",
+      "name": "pushcut",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.payPalTrigger",
+      "category": "n8n-nodes-base",
+      "name": "payPalTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.postHog",
+      "category": "n8n-nodes-base",
+      "name": "postHog",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.postmarkTrigger",
+      "category": "n8n-nodes-base",
+      "name": "postmarkTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.onfleetTrigger",
+      "category": "n8n-nodes-base",
+      "name": "onfleetTrigger",
+      "usage_count": 3
+    },
+    {
+      "type": "n8n-nodes-base.twilioTrigger",
+      "category": "n8n-nodes-base",
+      "name": "twilioTrigger",
+      "usage_count": 5
+    },
+    {
+      "type": "n8n-nodes-base.gong",
+      "category": "n8n-nodes-base",
+      "name": "gong",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.dhl",
+      "category": "n8n-nodes-base",
+      "name": "dhl",
+      "usage_count": 2
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.lmOllama",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "lmOllama",
+      "usage_count": 4
+    },
+    {
+      "type": "n8n-nodes-base.bambooHr",
+      "category": "n8n-nodes-base",
+      "name": "bambooHr",
+      "usage_count": 3
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.embeddingsOllama",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "embeddingsOllama",
+      "usage_count": 3
+    },
+    {
+      "type": "n8n-nodes-dataforseo.dataForSeo",
+      "category": "n8n-nodes-dataforseo",
+      "name": "dataForSeo",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.sseTrigger",
+      "category": "n8n-nodes-base",
+      "name": "sseTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.lmOpenHuggingFaceInference",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "lmOpenHuggingFaceInference",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-exif-data.exifData",
+      "category": "n8n-nodes-exif-data",
+      "name": "exifData",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-couchbase.vectorStoreCouchbaseSearch",
+      "category": "n8n-nodes-couchbase",
+      "name": "vectorStoreCouchbaseSearch",
+      "usage_count": 1
+    },
+    {
+      "type": "@searchapi/n8n-nodes-searchapi.searchApiTool",
+      "category": "@searchapi/n8n-nodes-searchapi",
+      "name": "searchApiTool",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.supabaseTool",
+      "category": "n8n-nodes-base",
+      "name": "supabaseTool",
+      "usage_count": 1
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.memoryMongoDbChat",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "memoryMongoDbChat",
+      "usage_count": 1
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.vectorStoreMongoDBAtlas",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "vectorStoreMongoDBAtlas",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.stopAndError",
+      "category": "n8n-nodes-base",
+      "name": "stopAndError",
+      "usage_count": 25
+    },
+    {
+      "type": "n8n-nodes-base.surveyMonkeyTrigger",
+      "category": "n8n-nodes-base",
+      "name": "surveyMonkeyTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.taigaTrigger",
+      "category": "n8n-nodes-base",
+      "name": "taigaTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-nostrobots.nostrobotsread",
+      "category": "n8n-nodes-nostrobots",
+      "name": "nostrobotsread",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.baserowTool",
+      "category": "n8n-nodes-base",
+      "name": "baserowTool",
+      "usage_count": 3
+    },
+    {
+      "type": "n8n-nodes-youtube-transcription.youtubeTranscripter",
+      "category": "n8n-nodes-youtube-transcription",
+      "name": "youtubeTranscripter",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-ntfy.Ntfy",
+      "category": "n8n-nodes-ntfy",
+      "name": "Ntfy",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-youtube-transcription-kasha.youtubeTranscripter",
+      "category": "n8n-nodes-youtube-transcription-kasha",
+      "name": "youtubeTranscripter",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.openWeatherMapTool",
+      "category": "n8n-nodes-base",
+      "name": "openWeatherMapTool",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.calTrigger",
+      "category": "n8n-nodes-base",
+      "name": "calTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.wooCommerceTool",
+      "category": "n8n-nodes-base",
+      "name": "wooCommerceTool",
+      "usage_count": 3
+    },
+    {
+      "type": "n8n-nodes-base.theHiveTrigger",
+      "category": "n8n-nodes-base",
+      "name": "theHiveTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.togglTrigger",
+      "category": "n8n-nodes-base",
+      "name": "togglTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.trelloTrigger",
+      "category": "n8n-nodes-base",
+      "name": "trelloTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.pushcutTrigger",
+      "category": "n8n-nodes-base",
+      "name": "pushcutTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.twitterTool",
+      "category": "n8n-nodes-base",
+      "name": "twitterTool",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.demio",
+      "category": "n8n-nodes-base",
+      "name": "demio",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.uptimeRobot",
+      "category": "n8n-nodes-base",
+      "name": "uptimeRobot",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.theHiveProject",
+      "category": "n8n-nodes-base",
+      "name": "theHiveProject",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.urlScanIo",
+      "category": "n8n-nodes-base",
+      "name": "urlScanIo",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-hdw.hdwLinkedin",
+      "category": "n8n-nodes-hdw",
+      "name": "hdwLinkedin",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-hdw.hdwWebParserTool",
+      "category": "n8n-nodes-hdw",
+      "name": "hdwWebParserTool",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-hdw.hdwLinkedinManagement",
+      "category": "n8n-nodes-hdw",
+      "name": "hdwLinkedinManagement",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.postBin",
+      "category": "n8n-nodes-base",
+      "name": "postBin",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.venafiTlsProtectCloud",
+      "category": "n8n-nodes-base",
+      "name": "venafiTlsProtectCloud",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.theHiveProjectTrigger",
+      "category": "n8n-nodes-base",
+      "name": "theHiveProjectTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.erpNext",
+      "category": "n8n-nodes-base",
+      "name": "erpNext",
+      "usage_count": 2
+    },
+    {
+      "type": "@n8n/n8n-nodes-langchain.documentBinaryInputLoader",
+      "category": "@n8n/n8n-nodes-langchain",
+      "name": "documentBinaryInputLoader",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.wise",
+      "category": "n8n-nodes-base",
+      "name": "wise",
+      "usage_count": 2
+    },
+    {
+      "type": "n8n-nodes-base.wiseTrigger",
+      "category": "n8n-nodes-base",
+      "name": "wiseTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.wufooTrigger",
+      "category": "n8n-nodes-base",
+      "name": "wufooTrigger",
+      "usage_count": 1
+    },
+    {
+      "type": "n8n-nodes-base.zendeskTrigger",
+      "category": "n8n-nodes-base",
+      "name": "zendeskTrigger",
+      "usage_count": 1
+    }
+  ],
+  "categories": [
+    {
+      "name": "context",
+      "workflows": 3,
+      "common_patterns": []
+    },
+    {
+      "name": "uncategorized",
+      "workflows": 1,
+      "common_patterns": []
+    },
+    {
+      "name": "workflows",
+      "workflows": 2056,
+      "common_patterns": [
+        "n8n-nodes-base.activeCampaignTrigger",
+        "n8n-nodes-base.acuitySchedulingTrigger",
+        "n8n-nodes-base.affinityTrigger",
+        "n8n-nodes-base.stickyNote",
+        "n8n-nodes-base.gmailTrigger",
+        "n8n-nodes-base.gmail",
+        "@n8n/n8n-nodes-langchain.chainLlm",
+        "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+        "@n8n/n8n-nodes-langchain.outputParserStructured",
+        "n8n-nodes-base.set"
+      ]
+    }
+  ],
+  "statistics": {
+    "total_workflows": 2060,
+    "unique_node_types": 495,
+    "average_nodes": 14,
+    "categories": 3
+  }
+}
