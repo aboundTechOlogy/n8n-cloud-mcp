@@ -1,6 +1,6 @@
 {
   "name": "n8n-cloud-mcp",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "description": "n8n MCP Server for Cloudflare Workers with 93 tools",
   "type": "module",
   "scripts": {
