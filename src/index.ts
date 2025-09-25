@@ -75,6 +75,7 @@ import importworkflow from './tools/import_workflow';
 import exportworkflow from './tools/export_workflow';
 import importtemplate from './tools/import_template';
 import exporttemplate from './tools/export_template';
+import debugr2 from './tools/debug_r2';
 import importcredentials from './tools/import_credentials';
 import exportcredentials from './tools/export_credentials';
 import organizationfolders from './tools/organization_folders';
@@ -199,6 +200,7 @@ const tools = {
   'utility.debug': utilitydebug,
   'credential.create': credentialcreate,
   'credential.delete': credentialdelete,
+  'debug.r2': debugr2,
 };
 
 export default {
@@ -212,7 +214,7 @@ export default {
     if (url.pathname === '/') {
       return new Response(JSON.stringify({
         name: 'n8n-cloud-mcp',
-        version: '1.0.0',
+        version: '1.2.0',
         toolsImplemented: 93,
         totalTools: 93,
         progress: '9.7%',

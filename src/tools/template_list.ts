@@ -1,5 +1,5 @@
 /**
- * List available templates
+ * List available templates from R2
  */
 
 import { z } from 'zod';
@@ -27,13 +27,41 @@ export default {
       };
     }
 
-    // TODO: Implement actual logic
-    await audit.success('template.list', args);
-    
+    try {
+      // Read metadata from R2
+      const metadata = await context.env.TEMPLATES.get('metadata.json');
+      if (metadata) {
+        const data = JSON.parse(await metadata.text());
+        const limit = args.limit || 10;
+        const categories = data.categories.slice(0, limit);
+        
+        await audit.success('template.list', args);
+        
+        return {
+          content: [{
+            type: 'text' as const,
+            text: `📚 Template Categories (${data.total} workflows total)\n\n${
+              categories.map((cat: any, i: number) => 
+                `${i+1}. **${cat.name}**: ${cat.count} workflows`
+              ).join('\n')
+            }\n\n✨ Use template.search to find specific workflows`
+          }]
+        };
+      }
+    } catch (error) {
+      console.error('Error reading templates:', error);
+      return {
+        content: [{
+          type: 'text' as const,
+          text: `Error accessing templates: ${error}`
+        }]
+      };
+    }
+
     return {
       content: [{
         type: 'text' as const,
-        text: `✅ List available templates\n\nProcessing: ${JSON.stringify(args, null, 2)}`
+        text: 'No templates found in R2 bucket'
       }]
     };
   }

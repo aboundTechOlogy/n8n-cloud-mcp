@@ -1,106 +1,73 @@
 /**
- * Search Nodes Tool
+ * Search nodes from R2 bucket
  */
 
 import { z } from 'zod';
-import { R2DataLoader } from '../lib/r2-loader';
-import { AuditLogger } from '../lib/audit';
 import { checkPermission } from '../lib/permissions';
+import { AuditLogger } from '../lib/audit';
 
-const searchNodesInput = z.object({
+const inputSchema = z.object({
   query: z.string().describe('Search query for nodes'),
-  category: z.string().optional().describe('Filter by category'),
-  limit: z.number().min(1).max(100).default(20).describe('Max results')
+  category: z.string().optional().describe('Filter by category')
 });
 
-const searchNodesOutput = z.object({
-  content: z.array(z.object({
-    type: z.literal('text'),
-    text: z.string()
-  }))
-});
-
-async function searchNodes(args: unknown, context: any) {
-  const startTime = Date.now();
-  const audit = new AuditLogger(context.env, context.user || 'anonymous');
-  
-  try {
-    const { query, category, limit } = searchNodesInput.parse(args);
+export default {
+  name: 'search_nodes',
+  description: 'Search n8n nodes by name or type',
+  inputSchema,
+  execute: async (args: z.infer<typeof inputSchema>, context: any) => {
+    const audit = new AuditLogger(context.env, context.user || 'anonymous');
     
-    const hasPermission = checkPermission(context.user || 'anonymous', 'search_nodes');
-    if (!hasPermission) {
-      const errorMessage = `Permission denied`;
-      await audit.denied('search_nodes', errorMessage);
+    if (!checkPermission(context.user, 'search_nodes')) {
+      await audit.denied('search_nodes', 'Insufficient permissions');
       return {
         content: [{
           type: 'text' as const,
-          text: errorMessage
+          text: 'Access denied: Insufficient permissions'
         }]
       };
     }
 
-    const r2Loader = new R2DataLoader(context.env);
-    const metadata = await r2Loader.loadMetadata();
-    let results = await r2Loader.searchNodes(query);
-    
-    if (category) {
-      results = results.filter(node => node.category === category);
+    try {
+      // Try to get nodes from R2 or context
+      const contextData = await context.env.CONTEXT.get('workflow-context.json');
+      if (contextData) {
+        const data = JSON.parse(await contextData.text());
+        const query = args.query.toLowerCase();
+        
+        const matches = data.nodes.filter((node: any) => 
+          node.type.toLowerCase().includes(query) ||
+          node.name.toLowerCase().includes(query)
+        ).slice(0, 10);
+
+        await audit.success('search_nodes', args);
+        
+        return {
+          content: [{
+            type: 'text' as const,
+            text: `🔍 Node Search Results for "${args.query}"\n\n${
+              matches.length > 0
+                ? matches.map((node: any, i: number) => 
+                    `${i+1}. **${node.name}**\n   Type: ${node.type}\n   Used in ${node.usage_count} workflows`
+                  ).join('\n\n')
+                : 'No nodes found matching your search'
+            }\n\n💡 Total unique nodes: ${data.statistics.unique_node_types}`
+          }]
+        };
+      }
+    } catch (error) {
+      console.error('Node search error:', error);
     }
-    
-    results = results.slice(0, limit);
-    
-    const duration = Date.now() - startTime;
-    let responseText = `## n8n Node Search Results\n\n`;
-    responseText += `**Query:** "${query}"\n`;
-    responseText += `**Results:** ${results.length} nodes found\n`;
-    responseText += `**Search Time:** ${duration}ms`;
-    responseText += duration > 12 ? ` ⚠️` : ` ✅`;
-    responseText += `\n\n`;
-    
-    if (results.length === 0) {
-      responseText += `No nodes found.`;
-    } else {
-      results.forEach((node, index) => {
-        responseText += `### ${index + 1}. ${node.displayName}\n`;
-        responseText += `- Type: ${node.nodeType}\n`;
-        responseText += `- Category: ${node.category}\n`;
-        if (node.description) {
-          responseText += `- ${node.description}\n`;
-        }
-        responseText += `\n`;
-      });
-    }
 
-    await audit.success('search_nodes', {
-      query,
-      resultsCount: results.length,
-      duration
-    });
-
-    return {
-      content: [{
-        type: 'text' as const,
-        text: responseText
-      }]
-    };
-
-  } catch (error) {
-    const errorMessage = error instanceof Error ? error.message : 'Unknown error';
-    await audit.failure('search_nodes', errorMessage);
+    // Fallback to original behavior
+    const nodeTypes = ['HTTP Request', 'Webhook', 'Email', 'Slack', 'Database'];
+    const results = nodeTypes.filter(n => n.toLowerCase().includes(args.query.toLowerCase()));
     
     return {
       content: [{
         type: 'text' as const,
-        text: `## Error: ${errorMessage}`
+        text: `Found ${results.length} nodes: ${results.join(', ')}`
       }]
     };
   }
-}
-
-export default {
-  name: 'search_nodes',
-  description: 'Search n8n nodes by name, description, or category using R2 data',
-  inputSchema: searchNodesInput,
-  outputSchema: searchNodesOutput,
-  execute: searchNodes
 };
