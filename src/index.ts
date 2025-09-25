@@ -178,3 +178,5 @@ export default {
     return new Response('Not Found', { status: 404 });
   }
 };
+
+// Add this after the fetch handler
