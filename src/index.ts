@@ -19,6 +19,11 @@ import deactivateWorkflow from './tools/workflow_deactivate';
 import updateWorkflow from './tools/workflow_update';
 import deleteWorkflow from './tools/workflow_delete';
 import searchNodes from './tools/search_nodes';
+import duplicateWorkflow from './tools/workflow_duplicate';
+import workflowmove from './tools/workflow_move';
+import workflowrename from './tools/workflow_rename';
+import workflowrestoreversion from './tools/workflow_restore_version';
+import workflowgetversions from './tools/workflow_get_versions';
 
 // Tool registry
 const tools = {
@@ -30,7 +35,12 @@ const tools = {
   'workflow.deactivate': deactivateWorkflow,
   'workflow.update': updateWorkflow,
   'workflow.delete': deleteWorkflow,
+  'workflow.duplicate': duplicateWorkflow,
   'search_nodes': searchNodes,
+  'workflow.move': workflowmove,
+  'workflow.rename': workflowrename,
+  'workflow.restore_version': workflowrestoreversion,
+  'workflow.get_versions': workflowgetversions,
 };
 
 export default {
@@ -44,8 +54,8 @@ export default {
     if (url.pathname === '/') {
       return new Response(JSON.stringify({
         name: 'n8n-cloud-mcp',
-        version: '0.9.0',
-        toolsImplemented: 9,
+        version: '0.11.0',
+        toolsImplemented: 14,
         totalTools: 93,
         progress: '9.7%',
         status: 'operational',

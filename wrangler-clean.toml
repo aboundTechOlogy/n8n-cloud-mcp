@@ -1,0 +1,41 @@
+name = "n8n-cloud-mcp"
+main = "dist/bundle.js"
+compatibility_date = "2025-03-10"
+compatibility_flags = ["nodejs_compat"]
+
+[[kv_namespaces]]
+binding = "NODE_CACHE"
+id = "61a31e1f734a46218cf73db38b5246b1"
+
+[[kv_namespaces]]
+binding = "TEMPLATE_CACHE"
+id = "8d05b8acb440458e8ef95971a04902e5"
+
+[[kv_namespaces]]
+binding = "CONFIG_KV"
+id = "0774c6671bcb4a6caafa87f181d6f663"
+
+[[kv_namespaces]]
+binding = "CACHE_KV"
+id = "f8622a572d774d51b87f299314edd681"
+
+[[kv_namespaces]]
+binding = "DEDUP_KV"
+id = "10438725ab324e9ea0de621e9e310bc5"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "n8n-cloud-mcp-db"
+database_id = "8030693f-aebc-4554-bb1f-b0456a6d8f0d"
+
+[[r2_buckets]]
+binding = "NODE_DOCS"
+bucket_name = "n8n-node-docs"
+
+[[r2_buckets]]
+binding = "TEMPLATES"
+bucket_name = "n8n-templates"
+
+[[r2_buckets]]
+binding = "CONTEXT"
+bucket_name = "n8n-context"

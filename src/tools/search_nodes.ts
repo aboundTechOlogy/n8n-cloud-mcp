@@ -102,5 +102,5 @@ export default {
   description: 'Search n8n nodes by name, description, or category using R2 data',
   inputSchema: searchNodesInput,
   outputSchema: searchNodesOutput,
-  handler: searchNodes
+  execute: searchNodes
 };
