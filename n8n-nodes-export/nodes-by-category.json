@@ -1,0 +1,1 @@
+{"trigger":[{"nodeType":"n8n-nodes-base.webhook","displayName":"Webhook"}],"transform":[{"nodeType":"n8n-nodes-base.httpRequest","displayName":"HTTP Request"},{"nodeType":"n8n-nodes-base.code","displayName":"Code"}]}
